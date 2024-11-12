@@ -1,0 +1,6 @@
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print("Slicing:", arr[1:4])
+arr2 = np.array([10, 20, 30, 40, 50])
+print("Integer Indexing:", arr2[[0, 2, 4]])
+print("Boolean Indexing:", arr2[arr2 > 25]) 
