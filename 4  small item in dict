@@ -1,0 +1,5 @@
+def sum_dict(dictionary):
+  return sum(dictionary.values())
+# Example usage
+sample_dict = {"a": 10, "b": 20, "c": 30}
+print(sum_dict(sample_dict))
