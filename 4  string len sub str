@@ -1,0 +1,10 @@
+def string_length(s):
+    length = 0
+    for _ in s:
+        length += 1
+    return length
+def substring_check(s, sub):
+    return sub in s
+# Example usage
+print(string_length("hello")) # 5
+print(substring_check("hello", "lo")) 
