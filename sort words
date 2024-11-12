@@ -1,0 +1,7 @@
+with open('pyt.txt','r') as f:
+    k=f.read()
+    x=k.lower().split()
+    x.sort()
+with open('pyt1.txt','w') as m:
+    for i in x:
+        m.write(i+'\n')
