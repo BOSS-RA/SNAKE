@@ -1,0 +1,9 @@
+def file_statistics(filename):
+  with open(filename, "r") as file:
+    content = file.read()
+    characters = len(content)
+    words = len(content.split())
+    lines = content.count('\n') + 1
+  return characters, words, lines
+# Usage example
+print(file_statistics("sample.txt"))
