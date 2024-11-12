@@ -1,5 +1,5 @@
 def greet(name="Guest"):
-    print("Hello, {name}!")
+    print(f"Hello, {name}!")
 # Example usage
 greet()
 greet("Alice")
