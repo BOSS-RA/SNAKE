@@ -1,0 +1,4 @@
+with open('pyt.txt','r') as f:
+    k=f.readlines()
+    for i in k:
+        print(i.strip()[::-1])
