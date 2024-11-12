@@ -1,0 +1,13 @@
+b=input()
+a=0
+a+=b.count('a')
+a+=b.count('e')
+a+=b.count('i')
+a+=b.count('o')
+a+=b.count('u')
+a+=b.count('A')
+a+=b.count('E')
+a+=b.count('I')
+a+=b.count('O')
+a+=b.count('U')
+print(a)
