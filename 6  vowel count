@@ -1,4 +1,4 @@
-b=input()
+b=input("enter a string: ")
 a=0
 a+=b.count('a')
 a+=b.count('e')
@@ -10,4 +10,4 @@ a+=b.count('E')
 a+=b.count('I')
 a+=b.count('O')
 a+=b.count('U')
-print(a)
+print("Total vowels in given string are : ", a)
