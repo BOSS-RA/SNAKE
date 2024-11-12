@@ -1,0 +1,5 @@
+def key_exists(dictionary, key):
+    return key in dictionary
+sample_dict = {"a": 1, "b": 2, "c": 3}
+print(key_exists(sample_dict, "b"))
+print(key_exists(sample_dict, "z"))
